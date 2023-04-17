@@ -10,8 +10,6 @@ function createDreamTeam(members) {
   return nameLetters.sort().join('');
 }
 
-console.log(createDreamTeam(['Olivia', 1111, 'Lily', 'Oscar', true, null]))
-
 module.exports = {
   createDreamTeam
 };
